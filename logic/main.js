@@ -37,7 +37,6 @@ form?.addEventListener('submit', (e) => {
  }
  // 3) Успешная «отправка» (без сервера)
  e.preventDefault();
- // Если форма внутри <dialog>, закрываем окно:
  document.getElementById('contactDialog')?.close('success');
  form.reset();
 });
